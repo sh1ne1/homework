@@ -12,7 +12,7 @@ func = generator(name)
 
 
 while True:
-    d = input('do u want next one?')
-    if d == 'yes':
+    a = input('do u want next one?')
+    if a == 'yes':
         next(func)
         print(func.send('nextone'))
